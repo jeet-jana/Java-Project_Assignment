@@ -1,4 +1,4 @@
-import java.util.Scanner;
+\nEnter the valueimport java.util.Scanner;
 
 
 class Par_Main{
@@ -97,21 +97,21 @@ class Currency_Method extends Par_Main{
         System.out.println("The Pound of this "+Inr+" amount is=="+Pound);
     }
     void Euro(){
-        System.out.println("Rupees to Euro");
+        System.out.println("Rupees to Euro\nEnter the value");
         double Inr = Inp_number();
         double ex_rate = 1.0/90;
         double Euro = Inr * ex_rate;
         System.out.println("The Euro of this "+Inr+" amount is=="+Euro);
     }
     void Dirham(){
-        System.out.println("Rupees to Dirham");
+        System.out.println("Rupees to Dirham\nEnter the value");
         double Inr = Inp_number();
         double ex_rate = 1.0/22;
         double cont = Inr * ex_rate;
         System.out.println("The Euro of this "+Inr+" amount is=="+cont);
     }
     void Mark(){
-        System.out.println("Rupees to Mark");
+        System.out.println("Rupees to Mark\nEnter the value");
         double Inr = Inp_number();
         double ex_rate = 1.0/90;
         double cont = Inr * ex_rate;
@@ -119,7 +119,7 @@ class Currency_Method extends Par_Main{
         System.out.println("The Euro of this "+Inr+" amount is=="+Final);
     }
     void Yen(){
-        System.out.println("Rupees to Yen");
+        System.out.println("Rupees to Yen\nEnter the value");
         double Inr = Inp_number();
         double ex_rate = 1.7;
         double cont = Inr * ex_rate;
@@ -155,13 +155,13 @@ class chi_Tempreture extends Par_Main{
 }
 class Temperature_Method extends chi_Tempreture{
     void Fahrenheit(){
-        System.out.println("Centigrade to Farenheight");
+        System.out.println("Centigrade to Farenheight\nEnter the value");
         double cen = Inp_number();
         double Fer = cen * (9.0/5) + 32;
         System.out.println("The "+cen+" tempreture is equal to "+Fer+" Fahrenheight");
     }
     void Centigrade(){
-        System.out.println("Fahrenheight to Centrigrade");
+        System.out.println("Fahrenheight to Centrigrade\nEnter the value");
         double Fer = Inp_number();
         double cen = Fer * (5.0/9) - 32;
         System.out.println("The "+Fer+" tempreture is equal to "+cen+" Centigrade");
@@ -209,28 +209,28 @@ class chi_Distance extends Par_Main{
 
 class Distance_methods extends chi_Distance{
     void one(){
-        System.out.println("Convert Yards to Feet");
+        System.out.println("Convert Yards to Feet\nEnter the value");
         double value = Inp_number();
         double same = 3;
         double ans = value * same;
         System.out.println("Answer "+ans);
     }
     void Two(){
-        System.out.println("Convert Miles to Km");
+        System.out.println("Convert Miles to Km\nEnter the value");
         double value = Inp_number();
         double same = 1.609;
         double ans = value * same;
         System.out.println("Answer "+ans);
     }
     void Three(){
-        System.out.println("Convert Km to Meter");
+        System.out.println("Convert Km to Meter\nEnter the value");
         double value = Inp_number();
         double same = 1000;
         double ans = value * same;
         System.out.println("Answer "+ans);
     }
     void Four(){
-        System.out.println("Convert Meter to Centimetre");
+        System.out.println("Convert Meter to Centimetre\nEnter the value");
         double value = Inp_number();
         double same = 100;
         double ans = value * same;
