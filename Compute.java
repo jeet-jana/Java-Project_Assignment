@@ -1,4 +1,4 @@
-\nEnter the valueimport java.util.Scanner;
+import java.util.Scanner;
 
 
 class Par_Main{
@@ -82,7 +82,7 @@ class chi_Currency extends Par_Main{
 
 class Currency_Method extends Par_Main{
     void Dollar(){
-        System.out.println("Rupees to Dollar");
+        System.out.println("Rupees to Dollar\nEnter the value");
         double Inr = Inp_number();
         double ex_rate = 0.0106;
         double Usd = Inr * ex_rate;
@@ -90,7 +90,7 @@ class Currency_Method extends Par_Main{
         Start();
     }
     void Pound(){
-        System.out.println("Rupees to Pound");
+        System.out.println("Rupees to Pound\nEnter the value");
         double Inr = Inp_number();
         double ex_rate = 1.0/120;
         double Pound = Inr * ex_rate;
